@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial scale=1.0">
+    <title>Go to ski</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+
+        </nav>
+
+        <h1>Our Certificate & Programs for 2k23</h1>
+
+</section>
+
+<!-----blog page content----->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our certificate & Programs for 2k23</h2>
+            <p>We are committed to consistently providing enjoyable recreation, a safe environment, and uniquely memorable 
+                experiences for every guest. From a skier or rider's first moment on snow, to adventures found in our 
+                imaginative terrain, we elevate the learning experience of every guest by providing a wide variety of lesson
+                options and passionate, talented instructors. We strive for excellence in service, innovation, and anticipation 
+                of our guest's ever-changing needs and expectations.</p>
+            <br>
+            <p>A Private Lesson is a one-on-one experience with an instructor. In a private learning situation, the instructor 
+                is able to cater to the individual's needs, specific goals, and personal learning style. Private lessons are 
+                offered daily and can be booked in 1, 2, and 3-hour increments. Private Lessons are available for ages 3 through adult.</p>
+            <br>
+            <p>A Semi-Private Lesson is a small group experience where guests are given the opportunity to book a lesson with friends, 
+                siblings or family members. Semi-Private lessons are most ideal when all members of the group are skiing or riding at a 
+                similar ability level. In some situations, a semi-private lesson with varying ability levels may require two instructors.
+                Semi-Private lessons are offered daily and can be booked in 1, 2, and 3-hour increments. Semi-Private Lessons are available 
+                for ages 5 through adult.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter email">
+                        <textarea rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+    
+        </div>
+        <div class="blog-right">
+            <h3>Age categories</h3>
+            <div>
+                <span>5-14 years</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>15-20 years</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>21-35 years</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>35-55 years</span>
+                <span>18</span>
+            </div>
+            <p>The number of participants is limited!</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!----footer---->
+
+<section class="footer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Copyright &#169 2022 go to ski. All rights reserved.</p>
+
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
